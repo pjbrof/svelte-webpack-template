@@ -1,0 +1,25 @@
+{
+  "name": "svelte-webpack-template",
+  "version": "0.0.1",
+  "description": "Minimum template for svelte and webpack",
+  "main": "index.js",
+  "dependencies": {
+    "svelte": "^3.35.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.9",
+    "@babel/runtime": "^7.13.9",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^4.5.2",
+    "svelte-loader": "^3.0.0",
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "start": "webpack serve"
+  },
+  "author": "JH WMD",
+  "license": "ISC"
+}
